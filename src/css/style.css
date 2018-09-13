@@ -1,0 +1,13 @@
+.exchangerate > .rate-asc { 
+    color: green;
+}
+.exchangerate > .rate-desc { 
+    color: red;
+}
+.exchangerate > .currency.currency-USD { 
+    background-image: url("usd.png");
+    background-repeat: no-repeat;
+}
+.exchangerate > .currency.currency-USD > span{ 
+    margin-left: 20px;
+}
